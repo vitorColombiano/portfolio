@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>repertorio_front</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao_conteudo">
             <h1 class="apresentacao_conteudo_titulo">Eleve seu negócio digital a outro nível <strong class="titulo">com um front end de qualidade !</strong> </h1>
@@ -15,12 +20,25 @@
                 em prática boas ideias. Vamos conversar?</p>
 
             <div class="apresentacao_links">
-                <a class="apresentacao_links_endereco" href="https://instagram.com/v_colombiano">Instagram </a>
-                <a class="apresentacao_links_endereco" href="https://github.com/vitorColombiano/">GitHub</a>
+                <h2 class="apresentacao_links_subtitulo">Acesse as minhas redes: </h2>
+                <a class="apresentacao_links_endereco" href="https://github.com/vitorColombiano/">
+                    <img src = "assets/image/github.png">
+                    GitHub
+                </a>
+                <a class="apresentacao_links_endereco" href="https://www.linkedin.com/in/vitorcolombiano/">
+                    <img src = "assets/image/linkedin.png">
+                    LinkedIn
+                </a>
+                <a class="apresentacao_links_endereco" href="https://github.com/vitorColombiano/">
+                    <img src = "assets/image/twitch.png">
+                    Twitch
+                </a>
             </div>
         </section>
-        <img src="image/Imagem.png" alt=" imagem de portfolio">
+        <img src="/assets/image/Imagem.png" alt=" imagem de portfolio">
     </main>
-    <footer></footer>    
+    <footer class="rodape">
+        <p>Desenvolvido por Vitor Colombiano</p>
+    </footer>    
 </body>
 </html>
